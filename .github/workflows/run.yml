@@ -6,6 +6,7 @@ on:
       - master
   schedule:
     - cron: '*/15 * * * *'
+  workflow_dispatch:  # ← 添加这个
 
 jobs:
   build:
